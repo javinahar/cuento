@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Crea tu cuento</title>
+<link rel = "stylesheet" type = "text/css" href = "cuento.css" />
+<script type="text/javascript" src = "cuento.js">
+</script>
+  <link rel="icon" href="images/97050012-guerrero-medieval-de-dibujos-animados-ilustración-vectorial-de-diseño-gráfico-removebg-preview.png" type="image/png"> 
+</head>
+  
+<body>
+  
+<h1>Tu historia</h1>
+<form action="">
+<fieldset>
+<label for = "txtnombre">Tu nombre</label>
+<input type = "text"
+id = "txtnombre" />
+
+  <label for = "txtgenero">Género del personaje</label>
+  <select id="txtgenero" name="elige">
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+  
+
+    </select>
+
+<label for = "txtpais">País</label>
+<input type = "text"
+id = "txtpais" />
+
+<label for = "txtpaisatacar">País que quieres atacar</label>
+  <select id="txtpaisatacar" name="elige">
+      <option value="Alemania">Alemania</option>
+      <option value="Francia">Francia</option>
+      <option value="Italia">Italia</option>
+    
+    </select>
+
+
+<label for = "txtfigura">¿En qué figura te escondes?</label>
+<input type = "text"
+id = "txtfigura" />
+
+<label for = "txtamigo">Nombre de tu amigo</label>
+<input type = "text"
+id = "txtamigo" />
+
+  <br>
+  
+<button onclick = "tellStory()"
+type = "button">
+Cuentame la historia
+</button>
+</fieldset>
+</form>
+
+  <p></p>
+  
+<div id = "output">
+
+</div>
+
+ <br>
+  
+  <button id="borrar" onclick = "clearStory()"
+  style="display: none;"
+  type = "button">
+  Borra la historia
+  </button>
+
+    <img src="images/caballeroanimado.png" style="display: none;" alt="imagen de un caballero medieval" id="caballeroanimado">
+    <img src="images/guerrera.png" style="display: none;" alt="imagen de una guerrera medieval" id="guerrera">
+
+  <a href="index.html"><img src="images/simboloinicio.png" alt="imagen con forma de casa que si haces click sobre ella te lleva al inicio" style="width:120px; position: fixed; left: 20px; top: 60%; transform: translateY(-50%);"></a>
+
+
+</body>
+</html>

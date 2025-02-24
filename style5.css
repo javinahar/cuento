@@ -1,0 +1,32 @@
+
+
+@font-face {
+  font-family: tipofuentejavier;
+  src: url(tiposfuente/fuentepreguntauno.ttf);
+}
+h2 {
+  font-family: tipofuentejavier;
+}
+
+body {
+
+
+  background-image: url("images/fondo2.PNG");
+
+    background-size: cover; 
+
+    background-repeat: no-repeat;
+
+   background-attachment: fixed;
+p{
+  text-align: center;
+  font-size: 140%;
+  color: black;
+}
+  
+}
+img {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}

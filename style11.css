@@ -1,0 +1,37 @@
+h1{
+  text-align: center;
+  font-size: 500%;
+  color: red;
+  font-family: tipofuentejavier;
+}
+
+@font-face {
+  font-family: tipofuentejavier;
+  src: url(tiposfuente/fuentetitulo.ttf);
+}
+div {
+  font-family: tipofuentejavier;
+}
+
+body {
+
+
+  background-image: url("images/caballo33.jpg");
+
+    background-size: cover; 
+
+    background-repeat: no-repeat;
+
+   background-attachment: fixed;
+p{
+  text-align: center;
+  font-size: 180%;
+  color: black;
+}
+  
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
